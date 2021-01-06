@@ -31,4 +31,5 @@ Browse to `http://localhost:8080/demo`
 ### Documentation to double encoding prevention:
 
 > Grails 2.3 includes double encoding prevention so that when an expression is evaluated, it will not encode if the data has already been encoded (Example `${foo.encodeAsHTML()}`).
+
 —https://docs.grails.org/latest/guide/security.html#_double_encoding_prevention
