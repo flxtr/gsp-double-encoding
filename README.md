@@ -25,7 +25,7 @@ Browse to `http://localhost:8080/demo`
 ### Actual Behaviour
 
 - `amp1 == amp2` is `true` according to `<g:if>`
-- `&{amp1}` is outputted as `&amp;amp;` in the HTML source → shows up in the browser as "&amp;"
+- `&{amp1}` is outputted as `&amp;amp;` in the HTML source → shows up in the browser as "&amp;amp;"
 - `&{amp2}` is outputted as `&amp;`in the HTML source → shows up in the browser as "&"
 
 ### Documentation to double encoding prevention:
